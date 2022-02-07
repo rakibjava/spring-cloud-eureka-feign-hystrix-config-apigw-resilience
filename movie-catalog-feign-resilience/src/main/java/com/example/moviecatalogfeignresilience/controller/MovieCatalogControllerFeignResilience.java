@@ -5,6 +5,7 @@ package com.example.moviecatalogfeignresilience.controller;
 import com.example.moviecatalogfeignresilience.feignclient.MovieInfoFeign;
 import com.example.moviecatalogfeignresilience.feignclient.MovieRatingFeign;
 import com.example.moviecatalogfeignresilience.model.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,7 @@ public class MovieCatalogControllerFeignResilience {
    private final MovieRatingFeign movieRatingFeign;
    private final MovieInfoFeign movieInfoFeign;
 
+   @Autowired
    public MovieCatalogControllerFeignResilience (MovieRatingFeign movieRatingFeign, MovieInfoFeign movieInfoFeign) {
       this.movieRatingFeign = movieRatingFeign;
       this.movieInfoFeign = movieInfoFeign;

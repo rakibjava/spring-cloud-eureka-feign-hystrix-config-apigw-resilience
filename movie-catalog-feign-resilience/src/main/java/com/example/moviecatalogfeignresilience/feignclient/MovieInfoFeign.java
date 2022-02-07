@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @Component
 //@FeignClient(name = "movie-info", fallback = MovieInfoFeignFallback.class)
-@FeignClient(name = "movie-info")
+@FeignClient(name = "movie-info") // here movie-info is the application name registerd with eureka-naming-server
 public interface MovieInfoFeign {
 
    @GetMapping("/movies/{movieId}")

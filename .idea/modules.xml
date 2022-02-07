@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-Cloud-api-gateway/Spring-Cloud-api-gateway.iml" filepath="$PROJECT_DIR$/Spring-Cloud-api-gateway/Spring-Cloud-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-discovery-service/eureka-discovery-service.iml" filepath="$PROJECT_DIR$/eureka-discovery-service/eureka-discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/limit-service/limit-service.iml" filepath="$PROJECT_DIR$/limit-service/limit-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-catalog/movie-catalog.iml" filepath="$PROJECT_DIR$/movie-catalog/movie-catalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-catalog-feign-resilience/movie-catalog-feign-resilience.iml" filepath="$PROJECT_DIR$/movie-catalog-feign-resilience/movie-catalog-feign-resilience.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-info/movie-info.iml" filepath="$PROJECT_DIR$/movie-info/movie-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-rating/movie-rating.iml" filepath="$PROJECT_DIR$/movie-rating/movie-rating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-propeties-externalization/spring-boot-config-client.iml" filepath="$PROJECT_DIR$/spring-propeties-externalization/spring-boot-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server-github/spring-cloud-config-server-github.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server-github/spring-cloud-config-server-github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-eureka-feign-hystrix-config-apigw-resilience.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-eureka-feign-hystrix-config-apigw-resilience.iml" />
+    </modules>
+  </component>
+</project>

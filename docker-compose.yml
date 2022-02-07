@@ -1,0 +1,37 @@
+version: '3.0'
+
+services:
+  naming-server:
+    image: eureka-discovery-service:1.0
+    ports:
+      - "8761:8761"
+
+  movie-catalog:
+    image: movie-catalog-feign-resilience:1.0
+    restart: always
+    ports:
+      - "8580:8580"
+    environment:
+      #this env variable will override the properties inside the application.propertied
+      - eureka.client.serviceUrl.defaultZone= http://naming-server:8761/eureka/
+
+  movie-rating:
+    image: movie-rating:1.0
+    restart: always
+    ports:
+      - "8380:8380"
+    environment:
+      #this env variable will override the properties inside the application.propertied
+      - eureka.client.serviceUrl.defaultZone= http://naming-server:8761/eureka/
+
+  movie-info:
+    image: movie-info:1.0
+    restart: always
+    ports:
+      - "8280:8280"
+    environment:
+      #this env variable will override the properties inside the application.propertied
+      - eureka.client.serviceUrl.defaultZone= http://naming-server:8761/eureka/
+
+networks:
+  spring-cloud:

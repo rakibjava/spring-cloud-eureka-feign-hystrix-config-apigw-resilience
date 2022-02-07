@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/movie-info/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-rating/pom.xml" />
+        <option value="$PROJECT_DIR$/limit-service/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-catalog/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-discovery-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Cloud-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-catalog-feign-resilience/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-propeties-externalization/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server-github/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="adopt-openjdk-11" project-jdk-type="JavaSDK" />
+</project>
